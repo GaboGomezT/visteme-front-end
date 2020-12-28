@@ -1,9 +1,8 @@
-import Login from './components/Login.js';
-import Signup from './components/Signup.js';
+import Post from './components/Post.js';
 
 function App() {
   return (
-    <Signup />
+    <Post />
   );
 }
 
