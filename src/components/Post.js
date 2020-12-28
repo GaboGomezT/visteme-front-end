@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaRegHeart } from "react-icons/fa";
-const Post = () => {
+const Post = ({ imageURL }) => {
     return (
-        <div className="rounded max-w-lg overflow-hidden shadow-lg mx-auto">
-            <img src="https://source.unsplash.com/random" className="w-full" />
+        <div className="max-w-lg overflow-hidden shadow-lg mx-auto">
+            <img src={imageURL} className="w-full" />
             <div className="px-6 py-4">
             <FaRegHeart size="1.5em" />
                 <div className="font-bold text-purple-500 text-xl my-2">

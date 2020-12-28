@@ -1,8 +1,8 @@
-import Post from './components/Post.js';
+import Feed from './components/Feed.js';
 
 function App() {
   return (
-    <Post />
+    <Feed />
   );
 }
 
